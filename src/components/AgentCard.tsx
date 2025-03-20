@@ -1,6 +1,6 @@
-import { Star, Clock, DollarSign } from 'lucide-react';
-import Image from 'next/image';
-import { Agent } from '@/lib/agents-data';
+import { Star, Clock, DollarSign } from "lucide-react";
+import Image from "next/image";
+import { Agent } from "@/lib/agents-data";
 
 type AgentCardProps = {
   agent: Agent;
@@ -10,14 +10,14 @@ type AgentCardProps = {
 export default function AgentCard({ agent, onSelect }: AgentCardProps) {
   const getAvailabilityColor = (status: string) => {
     switch (status) {
-      case 'Available':
-        return 'bg-green-500';
-      case 'Busy':
-        return 'bg-red-500';
-      case 'Scheduled':
-        return 'bg-yellow-500';
+      case "Available":
+        return "bg-green-500";
+      case "Busy":
+        return "bg-red-500";
+      case "Scheduled":
+        return "bg-yellow-500";
       default:
-        return 'bg-gray-500';
+        return "bg-gray-500";
     }
   };
 
@@ -30,11 +30,13 @@ export default function AgentCard({ agent, onSelect }: AgentCardProps) {
           fill
           className="object-cover"
         />
-        <div className={`absolute top-2 right-2 ${getAvailabilityColor(agent.availability)} text-white px-3 py-1 rounded-full text-sm font-medium`}>
+        <div
+          className={`absolute top-2 right-2 ${getAvailabilityColor(agent.availability)} text-white px-3 py-1 rounded-full text-sm font-medium`}
+        >
           {agent.availability}
         </div>
       </div>
-      
+
       <div className="p-4">
         <div className="flex justify-between items-start mb-4">
           <div>
@@ -80,4 +82,4 @@ export default function AgentCard({ agent, onSelect }: AgentCardProps) {
       </div>
     </div>
   );
-} 
+}

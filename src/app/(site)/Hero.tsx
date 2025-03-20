@@ -18,9 +18,10 @@ const HeroSection = () => {
           </h1>
 
           <p className="text-base text-[#CFCFCF] mb-8 max-w-2xl mx-auto lg:mx-0">
-            Stop struggling with recruitment and team building. Black Box Team delivers
-            a complete, ready-to-go team of elite professionals tailored to your startup's
-            needs. From developers to designers, we're your instant dream team.
+            Stop struggling with recruitment and team building. Black Box Team
+            delivers a complete, ready-to-go team of elite professionals
+            tailored to your startup's needs. From developers to designers,
+            we're your instant dream team.
           </p>
 
           <Link
@@ -33,18 +34,16 @@ const HeroSection = () => {
 
           <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
             <div className="flex -space-x-1">
-              {[
-                "agent.svg",
-              
-                "agent.svg", "agent.svg", "agent.svg",
-              ].map((avatar, index) => (
-                <img
-                  key={index}
-                  src={avatar}
-                  alt={`Team Member ${index + 1}`}
-                  className="w-8 sm:w-10 h-8 sm:h-10 rounded-full border-2 border-zinc-900"
-                />
-              ))}
+              {["agent.svg", "agent.svg", "agent.svg", "agent.svg"].map(
+                (avatar, index) => (
+                  <img
+                    key={index}
+                    src={avatar}
+                    alt={`Team Member ${index + 1}`}
+                    className="w-8 sm:w-10 h-8 sm:h-10 rounded-full border-2 border-zinc-900"
+                  />
+                )
+              )}
             </div>
             <div className="flex items-center gap-2">
               <div className="flex flex-col items-center lg:items-start">
