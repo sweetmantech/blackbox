@@ -7,11 +7,13 @@ Black Box Team is a revolutionary platform that provides instant access to speci
 ## Features
 
 - **Specialized Agents**: Access to three types of professional agents:
+
   - HR Services Specialist
   - Marketing Strategist
   - Legal Counsel
 
-- **Smart Search & Filtering**: 
+- **Smart Search & Filtering**:
+
   - Real-time search functionality
   - Filter by agent type
   - View availability status
@@ -126,18 +128,21 @@ blackbox/
 ## Available Agents
 
 ### HR Services Specialist
+
 - 8 years experience
 - Expertise in talent acquisition and HR compliance
 - Specializes in employee relations and policy development
 - Rate: $85/hr or $12,000/month
 
 ### Marketing Strategist
+
 - 6 years experience
 - Digital marketing and brand development expert
 - Specializes in growth marketing and analytics
 - Rate: $95/hr or $14,000/month
 
 ### Legal Counsel
+
 - 10 years experience
 - Business and startup law specialist
 - Specializes in contracts and compliance
@@ -171,6 +176,7 @@ Please read our [Code of Conduct](CODE_OF_CONDUCT.md) before contributing.
 ## Support
 
 For support:
+
 - Email: support@blackboxteam.com
 - GitHub Issues: Raise an issue in the repository
 - Documentation: [Black Box Team Docs](https://docs.blackboxteam.com)
