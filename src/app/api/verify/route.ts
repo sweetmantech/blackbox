@@ -20,7 +20,7 @@ export async function POST(req: NextRequest) {
     action,
     signal
   )) as IVerifyResponse; // Wrapper on this
-  
+
   console.log(verifyRes);
 
   if (verifyRes.success) {

@@ -195,11 +195,13 @@ This repository and its contents are confidential. By accessing this software yo
 ## Support & Contact
 
 For support:
+
 - Email: support@blackboxteam.com
 - Phone: [Your support phone number]
 - Business Hours: Monday-Friday, 9:00 AM - 6:00 PM EST
 
 For business inquiries:
+
 - Email: business@blackboxteam.com
 - Partnership: partners@blackboxteam.com
 

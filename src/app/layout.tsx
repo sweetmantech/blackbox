@@ -1,17 +1,18 @@
-import { type Metadata } from "next"
-import { Inter } from "next/font/google"
-import "./globals.css"
+import { type Metadata } from "next";
+import { Inter } from "next/font/google";
+import "./globals.css";
 
-import { cn } from "@/lib/utils"
-import { NextAuthProvider } from "@/components/providers/next-auth-provider"
-import MiniKitProvider from "@/components/providers/minikit-provider"
-import { ErudaWrapper } from "@/components/providers/eruda-wrapper"
+import { cn } from "@/lib/utils";
+import { NextAuthProvider } from "@/components/providers/next-auth-provider";
+import MiniKitProvider from "@/components/providers/minikit-provider";
+import { ErudaWrapper } from "@/components/providers/eruda-wrapper";
 
-const inter = Inter({ subsets: ["latin"] })
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Black Box Team",
-  description: "Instant access to specialized professional teams for your startup.",
+  description:
+    "Instant access to specialized professional teams for your startup.",
   keywords: [
     "startup teams",
     "professional services",
@@ -22,14 +23,14 @@ export const metadata: Metadata = {
     "startup resources",
     "business solutions",
     "professional network",
-    "expert teams"
+    "expert teams",
   ],
-}
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
@@ -41,5 +42,5 @@ export default function RootLayout({
         </NextAuthProvider>
       </body>
     </html>
-  )
+  );
 }
