@@ -6,6 +6,7 @@ import { cn } from "@/lib/utils";
 import { NextAuthProvider } from "@/components/providers/next-auth-provider";
 import MiniKitProvider from "@/components/providers/minikit-provider";
 import { ErudaWrapper } from "@/components/providers/eruda-wrapper";
+import { PrivyAuthProvider } from "@/components/providers/privy-provider";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -36,9 +37,11 @@ export default function RootLayout({
     <html lang="en">
       <body className={cn(inter.className, "antialiased")}>
         <NextAuthProvider>
-          <ErudaWrapper>
-            <MiniKitProvider>{children}</MiniKitProvider>
-          </ErudaWrapper>
+          <PrivyAuthProvider>
+            <ErudaWrapper>
+              <MiniKitProvider>{children}</MiniKitProvider>
+            </ErudaWrapper>
+          </PrivyAuthProvider>
         </NextAuthProvider>
       </body>
     </html>
