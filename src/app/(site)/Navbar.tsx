@@ -56,16 +56,22 @@ export default function Navbar() {
             FAQ
           </Link>
           <Link
-            href="#wall-of-love"
+            href="/agenthub"
             className="text-base text-white/90 transition hover:text-white"
           >
-            Wall of love
+            Agent Hub
           </Link>
           <Link
             href="/agents"
             className="text-base text-white/90 transition hover:text-white"
           >
             Agents
+          </Link>
+          <Link
+            href="#wall-of-love"
+            className="text-base text-white/90 transition hover:text-white"
+          >
+            Wall of love
           </Link>
         </div>
 
