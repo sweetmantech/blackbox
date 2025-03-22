@@ -2,7 +2,7 @@
 
 Hi there! 👋
 
-Black Box Team is a revolutionary platform that provides instant access to specialized professional teams for your startup. Our platform offers a curated selection of HR, Marketing, and Legal experts ready to join your team.
+Black Box Team is a proprietary platform that provides instant access to specialized professional teams for your startup. Our platform offers a curated selection of HR, Marketing, and Legal experts ready to join your team.
 
 ## Features
 
@@ -173,14 +173,36 @@ For people who want to contribute, please refer to [CONTRIBUTING.md](CONTRIBUTIN
 
 Please read our [Code of Conduct](CODE_OF_CONDUCT.md) before contributing.
 
-## Support
+## License & Legal
+
+**PROPRIETARY AND CONFIDENTIAL**
+
+Copyright (c) 2024 Black Box Team. All Rights Reserved.
+
+This software is proprietary and confidential. Unauthorized copying, transferring, or reproduction of this software, via any medium is strictly prohibited. The software is protected by copyright law and international treaties.
+
+For licensing inquiries, please contact: legal@blackboxteam.com
+
+## Confidentiality
+
+This repository and its contents are confidential. By accessing this software you agree to:
+
+- Maintain the confidentiality of the software
+- Not share or distribute any part of the codebase
+- Not use the code for any purpose without explicit permission
+- Report any unauthorized access or use
+
+## Support & Contact
 
 For support:
-
 - Email: support@blackboxteam.com
-- GitHub Issues: Raise an issue in the repository
-- Documentation: [Black Box Team Docs](https://docs.blackboxteam.com)
+- Phone: [Your support phone number]
+- Business Hours: Monday-Friday, 9:00 AM - 6:00 PM EST
+
+For business inquiries:
+- Email: business@blackboxteam.com
+- Partnership: partners@blackboxteam.com
 
 ---
 
-Built with ❤️ by the Black Box Team
+Built with ❤️ by Black Box Team | © 2024 Black Box Team. All rights reserved.

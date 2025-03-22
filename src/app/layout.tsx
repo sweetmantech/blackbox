@@ -1,42 +1,45 @@
-import type { Metadata } from "next";
-import { Bricolage_Grotesque } from "next/font/google";
-import "./globals.css";
-import type React from "react"; // Import React
-import { cn } from "@/lib/utils";
+import { type Metadata } from "next"
+import { Inter } from "next/font/google"
+import "./globals.css"
 
-const bricolageGrotesque = Bricolage_Grotesque({
-  subsets: ["latin"],
-  display: "swap",
-});
+import { cn } from "@/lib/utils"
+import { NextAuthProvider } from "@/components/providers/next-auth-provider"
+import MiniKitProvider from "@/components/providers/minikit-provider"
+import { ErudaWrapper } from "@/components/providers/eruda-wrapper"
+
+const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "ShipFree",
-  description:
-    "Open Source Alternative to ShipFast - Launch your startup in days Not in weeks",
+  title: "Black Box Team",
+  description: "Instant access to specialized professional teams for your startup.",
   keywords: [
-    "saas",
-    "boilerplate",
-    "open source",
-    "free",
-    "open source shipfast",
-    "shipfree",
-    "idee8",
-    "made by idee8",
-    "free boilerplate",
-    "github",
+    "startup teams",
+    "professional services",
+    "HR solutions",
+    "marketing experts",
+    "legal teams",
+    "team building",
+    "startup resources",
+    "business solutions",
+    "professional network",
+    "expert teams"
   ],
-};
+}
 
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+}: {
+  children: React.ReactNode
+}) {
   return (
     <html lang="en">
-      <body className={cn(bricolageGrotesque.className, "antialiased")}>
-        {children}
+      <body className={cn(inter.className, "antialiased")}>
+        <NextAuthProvider>
+          <ErudaWrapper>
+            <MiniKitProvider>{children}</MiniKitProvider>
+          </ErudaWrapper>
+        </NextAuthProvider>
       </body>
     </html>
-  );
+  )
 }
